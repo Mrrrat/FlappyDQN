@@ -1,7 +1,3 @@
-import os
-os.environ['CUDA_VISIBLE_DEVICES'] = '0'
-import sys
-sys.path.append("game/")
 import random
 import numpy as np
 import flappy_bird_gym
